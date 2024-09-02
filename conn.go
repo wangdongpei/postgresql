@@ -388,7 +388,7 @@ func (c *Connector) open(ctx context.Context) (cn *conn, err error) {
 
 	cn.buf = bufio.NewReader(cn.c)
 
-	deadline := time.Now().Add(3 * time.Second)
+	deadline := time.Now().Add(2 * time.Second)
 	if err := cn.c.SetReadDeadline(deadline); err != nil {
 		return cn, err
 	}
