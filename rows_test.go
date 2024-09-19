@@ -5,7 +5,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lib/pq/oid"
+	"github.com/wangdongpei/postgresql/oid"
 )
 
 func TestDataTypeName(t *testing.T) {

@@ -10,7 +10,7 @@ prompt              = no
 C     = US
 ST    = Nevada
 L     = Las Vegas
-O     = github.com/lib/pq
+O     = github.com/wangdongpei/postgresql
 
 [ x509_ext ]
 subjectKeyIdentifier   = hash
